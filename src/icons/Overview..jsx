@@ -1,0 +1,48 @@
+import * as React from "react";
+const SvgOverview = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <rect
+      x={2.85}
+      y={2.85}
+      width={7.712}
+      height={7.712}
+      rx={1.15}
+      stroke="#7B8896"
+      strokeWidth={1.7}
+    />
+    <rect
+      x={2.85}
+      y={13.438}
+      width={7.712}
+      height={7.712}
+      rx={1.15}
+      stroke="#7B8896"
+      strokeWidth={1.7}
+    />
+    <rect
+      x={13.438}
+      y={2.85}
+      width={7.712}
+      height={7.712}
+      rx={1.15}
+      stroke="#7B8896"
+      strokeWidth={1.7}
+    />
+    <rect
+      x={13.438}
+      y={13.438}
+      width={7.712}
+      height={7.712}
+      rx={1.15}
+      stroke="#7B8896"
+      strokeWidth={1.7}
+    />
+  </svg>
+);
+export default SvgOverview;
